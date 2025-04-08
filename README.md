@@ -1,18 +1,20 @@
-# consistent
+# hashconsistent
 Consistent hashing module for Node.JS
 
 ## installation
 
 ```
-npm install consistent
+npm install hashconsistent
 ```
 
 ## usage
 
 ```js
-var consistent = require('consistent');
+const consistent = require('hashconsistent');
+//or 
+// import consistent from 'hashconsistent'
 
-var ring = consistent({
+const ring = consistent({
   members: [
     "member1",
     "member2",
